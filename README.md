@@ -77,7 +77,7 @@ SEEDIP=3.218.170.198
 pkill zetacored
 ```
 ## SystemD
-Chỗ này ae nên quay lại root mới có thể lưu đc file nhé
+* Note: Chỗ này ae nên quay lại root mới có thể lưu đc file nhé
 ```
 nano /etc/systemd/system/zetacored.service
 ```
