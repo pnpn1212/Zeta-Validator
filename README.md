@@ -54,6 +54,9 @@ pkill zetacored
 ```
 ## SystemD
 ```
+nano /etc/systemd/system/zetacored.service
+```
+```
 [Unit]
 Description=Zetacored Service
 After=multi-user.target
