@@ -20,18 +20,21 @@ fs.file-max=262144
 ## Install
 ```
 sudo apt update
+
 sudo apt install -y jq curl git
+
 jq --version
 ```
 ```
 wget https://zetachain-external-files.s3.amazonaws.com/binaries/athens3/latest/zetacored-ubuntu-22-amd64
+
 wget https://zetachain-external-files.s3.amazonaws.com/binaries/athens3/latest/zetaclientd-ubuntu-22-amd64
 ```
 ```
 mv zetacored-ubuntu-22-amd64 /usr/bin/zetacored && chmod +x /usr/bin/zetacored
-- Enter
+
 mv zetaclientd-ubuntu-22-amd64 /usr/bin/zetaclientd && chmod +x /usr/bin/zetaclientd
-- Enter
+
 ```
 ```
 git clone https://github.com/zeta-chain/network-athens3.git && cd network-athens3
