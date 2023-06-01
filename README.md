@@ -44,6 +44,13 @@ chmod +x ./scripts/*.sh
 ./scripts/node-setup.sh -o y
 ```
 * Note: Nhớ lưu lại 24 ký tự của wallet
+## Update Genesis File
+```
+git switch main
+
+git pull
+```
+
 ## Start Validator
 ```
 ./scripts/start-zetacore.sh
