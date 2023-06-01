@@ -1,5 +1,7 @@
 # Hướng dẫn ae chạy Validator Zeta
 
+## Bắt buộc phải dùng Ubuntu 22.04
+
 ## Thay đổi các thông số
 ```
 nano /etc/security/limits.conf
