@@ -54,6 +54,7 @@ git clone https://github.com/zeta-chain/network-athens3.git && cd network-athens
 ```
 ```
 chmod +x ./scripts/*.sh
+
 ./scripts/node-setup.sh -o y
 ```
 * Note: Nhớ lưu lại 24 ký tự của wallet
