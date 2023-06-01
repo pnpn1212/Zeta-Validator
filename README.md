@@ -57,7 +57,7 @@ chmod +x ./scripts/*.sh
 
 ./scripts/node-setup.sh -o y
 ```
-* Note: Nhớ lưu lại 24 ký tự của wallet
+* Note: Nhớ lưu lại 24 ký tự wallet của Operator và Hotkey
 ## Update Genesis File
 ```
 git switch main
