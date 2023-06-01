@@ -56,6 +56,7 @@ pkill zetacored
 ```
 nano /etc/systemd/system/zetacored.service
 ```
+Thêm các thông số ở dưới vào
 ```
 [Unit]
 Description=Zetacored Service
