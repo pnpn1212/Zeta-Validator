@@ -1,5 +1,6 @@
 # Hướng dẫn ae chạy Validator Zeta
 
+## Thay đổi các thông số
 ```
 nano /etc/security/limits.conf
 ```
@@ -16,6 +17,18 @@ nano /etc/sysctl.conf
 Thêm các thông số này vào cuối:
 ```
 fs.file-max=262144
+```
+## Tạo user Zetachain
+```
+useradd -m -s /bin/bash zetachain
+
+sudo su zetachain
+```
+## Tạo thư mục
+```
+mkdir -p /home/zetachain/.zetacored/bin
+
+mkdir /home/zetachain/.zetacored/config
 ```
 ## Install
 ```
