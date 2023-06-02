@@ -22,9 +22,9 @@ fs.file-max=262144
 ```
 ## Tạo user Zetachain
 ```
-useradd -m -s /bin/bash zetachain
+useradd zetachain
 
-sudo su zetachain
+su zetachain
 ```
 ## Tạo thư mục
 ```
