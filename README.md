@@ -1,5 +1,7 @@
 # Hướng dẫn ae chạy Validator Zeta
 
+## Hiện tại Guide này chỉ để ae chạy tham khảo vì Zetachain chưa công bố Whitelist
+
 ## Bắt buộc phải dùng Ubuntu 22.04
 
 ## Thay đổi các thông số
